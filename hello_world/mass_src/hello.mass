@@ -1,0 +1,9 @@
+(ns hello_mass)
+
+; switch to the namespace to do things
+(ns zhuli.mass.core)
+(main 
+  []
+  (list ".field-label" {:width "5em" :float "left" })
+  (list ".field-error" {:font-size "0.70em" :color "red"})
+)
