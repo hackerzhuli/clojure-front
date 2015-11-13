@@ -1,6 +1,6 @@
 (ns zhuli.mass.core)
 
-; 参数示例 [:margin-top "10px"], 是的，是一个vector
+; 鍙傛暟绀轰緥 [:margin-top "10px"], 鏄殑锛屾槸涓�涓獀ector
 (defn one_pair [[k v]]
   (str (subs (str k) 1)
      ":" v ";"))
